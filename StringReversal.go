@@ -16,7 +16,7 @@ func rev(str string) string {
 
 func main() {
 	var str string
-	fmt.Println("Enter String to Reverse")
+	fmt.Println("Enter String to Reverse:")
 	fmt.Scan(&str)
 	str2 := rev(str)
 	fmt.Println(str2)

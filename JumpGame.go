@@ -7,6 +7,7 @@ import (
 
 func canJump(nums []int) bool {
 	i := 0
+
 	//var max_index int
 	max_index := nums[i]
 	for i < len(nums) && i <= max_index {
